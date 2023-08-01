@@ -76,7 +76,7 @@ void mergeSort(int pData[], int l, int r)
 // extraMemoryAllocated counts bytes of memory allocated
 void insertionSort(int* pData, int n)
 {
-	 int i, key, j;
+    int i, key, j;
     for (i = 1; i < n; i++)
     {
         key = pData[i];
@@ -91,8 +91,8 @@ void insertionSort(int* pData, int n)
         }
         pData[j + 1] = key;
         extraMemoryAllocated += sizeof(int);
+    }
 }
-
 // implement bubble sort
 // extraMemoryAllocated counts bytes of extra memory allocated
 void bubbleSort(int* pData, int n)
@@ -110,7 +110,7 @@ void bubbleSort(int* pData, int n)
                 extraMemoryAllocated += sizeof(int) * 2;
             }
         }
-
+    }
 // implement selection sort
 // extraMemoryAllocated counts bytes of extra memory allocated
 void selectionSort(int* pData, int n)
