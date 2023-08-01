@@ -4,6 +4,13 @@
 
 int extraMemoryAllocated;
 
+int parseData(char *inputFileName, int **ppData);
+void mergeSort(int pData[], int l, int r);
+void insertionSort(int* pData, int n);
+void bubbleSort(int* pData, int n);
+void selectionSort(int* pData, int n);
+void printArray(int pData[], int dataSz);
+
 // implement merge sort
 // extraMemoryAllocated counts bytes of extra memory allocated
 void mergeSort(int pData[], int l, int r)
