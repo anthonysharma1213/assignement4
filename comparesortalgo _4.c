@@ -111,6 +111,7 @@ void bubbleSort(int* pData, int n)
             }
         }
     }
+}
 // implement selection sort
 // extraMemoryAllocated counts bytes of extra memory allocated
 void selectionSort(int* pData, int n)
